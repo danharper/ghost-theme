@@ -478,6 +478,14 @@ margin on the iframe, cause it breaks stuff. */
     min-height: 77px;
 }
 
+.dh-author-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 1rem;
+}
+
 .user-image {
     position: absolute;
     top: 0;
