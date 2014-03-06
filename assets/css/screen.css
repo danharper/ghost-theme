@@ -375,6 +375,16 @@ margin on the iframe, cause it breaks stuff. */
     color: #fff;
     background: #303538 no-repeat center center;
     background-size: cover;
+    background: #FF7665 repeat;
+    background-size: initial; // or contain
+}
+
+.site-head.blog-post-page {
+    height: 30%;
+}
+
+.site-head.blog-post-page a {
+    color: #fff;
 }
 
 .blog-logo {
@@ -809,6 +819,10 @@ margin on the iframe, cause it breaks stuff. */
         height: auto;
         min-height: 240px;
         padding: 15% 0;
+    }
+
+    .site-head.blog-post-page {
+        padding: 5% 0;
     }
 
     .blog-title {
